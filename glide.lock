@@ -1,0 +1,19 @@
+hash: dc147c453285205bb3918ebb605dd9bb8caa8c95a08c75d98e2bea63eac769f1
+updated: 2017-06-30T08:36:07.796851171+10:00
+imports:
+- name: github.com/anmitsu/go-shlex
+  version: 648efa622239a2f6ff949fed78ee37b48d499ba4
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: github.com/gliderlabs/ssh
+  version: bf3073636e5b2255b85a09640b2003b01ab4a070
+- name: golang.org/x/crypto
+  version: 5ef0053f77724838734b6945dd364d3847e5de1d
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+testImports: []

@@ -1,0 +1,8 @@
+package: github.com/glassechidna/sshello
+import:
+- package: github.com/gliderlabs/ssh
+  version: bf3073636e5b2255b85a09640b2003b01ab4a070
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
