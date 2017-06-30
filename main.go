@@ -18,6 +18,8 @@ type PrintableCertFields struct {
 }
 
 func main() {
+	spew.Config.SortKeys = true
+
 	ssh.Handle(func(s ssh.Session) {
 		cert, ok := s.PublicKey().(*gossh.Certificate)
 		if !ok {
