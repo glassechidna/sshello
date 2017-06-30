@@ -14,8 +14,6 @@ type PrintableCertFields struct {
 	CertType        uint32
 	KeyId           string
 	ValidPrincipals []string
-	ValidAfter      uint64
-	ValidBefore     uint64
 	Permissions		gossh.Permissions
 }
 
@@ -47,8 +45,6 @@ func printableFields(c *gossh.Certificate) PrintableCertFields {
 		CertType: c.CertType,
 		KeyId: c.KeyId,
 		ValidPrincipals: c.ValidPrincipals,
-		ValidAfter: c.ValidAfter,
-		ValidBefore: c.ValidBefore,
 		Permissions: c.Permissions,
 	}
 }
